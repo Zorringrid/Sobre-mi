@@ -110,17 +110,17 @@ body {
 .textp {
   text-align: justify;
   margin-top: 2%;
-  margin-right: 7%;
+  margin-right: 50px;
   font-size: 25px;
 }
 
 #hobbies {
   scroll-margin-top: 70px;
   margin-top: 30px;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 .hobbiesp {
-  margin-left: 30px;
+  margin-left: 50px;
 }
 .hobbies {
   display: flex;
@@ -155,12 +155,62 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   height: 95vh;
-  margin-bottom: 10px;
   width: 50%;
+  border-radius: 15px;
+  margin: 50px 50px;
   /* Evita que se deforme en pantallas grandes */
 }
-.masdemi {
+#me {
   margin-left: 50px;
+}
+#more {
+  margin-left: 50px;
+}
+
+.cats {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+.cats_target_kiwi {
+  background-color: #f2c0ff88;
+  background-image: url(img/kiwi.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  height: 50vh;
+  width: 100%;
+  margin-top: 50px;
+}
+.cats_target_pelu {
+  background-color: #f2c0ff88;
+  background-image: url(img/pelusa.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  height: 50vh;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.cats_target:hover {
+  background-color: #421b9661;
+  border: 3px solid #cbbcf683;
+}
+.cats_target img {
+  max-width: 1200px;
+  width: 50%;
+  height: 50vh;
+  margin-top: 30px;
+  border: 5px solid #cbbcf683;
+  border-radius: 15px;
 }
 .first-footer {
   width: 100%;
