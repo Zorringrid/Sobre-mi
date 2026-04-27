@@ -1,0 +1,178 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: white;
+}
+.top-header {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background: rgba(0, 0, 0, 0.565); /* estilo Sony */
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  justify-content: space-between;
+}
+.logo a {
+  padding-left: 30px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "BJCree", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.menu a:hover {
+  color: #cbbcf6;
+}
+.social {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+.social a {
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+}
+.social a:hover {
+  color: #cbbcf6;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.second-header {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-top: 70px;
+}
+.background-image-yo {
+  background-image: url(img/Yo.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* Hace que la imagen se adapte */
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 95vh;
+  margin-bottom: 10px;
+  width: 50%;
+  /* Evita que se deforme en pantallas grandes */
+}
+.name {
+  font-family: "BJCree", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 80px;
+  padding-top: 60vh;
+  text-align: center;
+  color: #ffffff;
+}
+.title {
+  font-family: "BJCree", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+  color: #f2c0ff;
+  padding-bottom: 8%;
+}
+.aboutme {
+  width: 50%;
+  padding-top: 50px;
+}
+.subtitle {
+  color: #f2c0ff;
+  font-size: 40px;
+}
+.textp {
+  text-align: justify;
+  margin-top: 2%;
+  margin-right: 7%;
+  font-size: 25px;
+}
+
+#hobbies {
+  scroll-margin-top: 70px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.hobbiesp {
+  margin-left: 30px;
+}
+.hobbies {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.hobbies_target {
+  background-color: #f2c0ff88;
+  margin: 70px;
+  padding: 30px;
+  border-radius: 15px;
+}
+.hobbies_target:hover {
+  background-color: #421b9661;
+  border: 3px solid #cbbcf683;
+}
+.hobbies_target img {
+  max-width: 1200px;
+  width: 100%;
+  height: 50vh;
+  margin-top: 30px;
+  border: 5px solid #cbbcf683;
+  border-radius: 15px;
+}
+
+.first-footer {
+  width: 100%;
+  height: 80px;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 11px;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-footer {
+  border-top: 0.2px solid #ffffff5e;
+  padding-top: 40px;
+}
+.menu-footer a {
+  color: white;
+  text-decoration: none;
+  padding: 0 80px;
+}
+.menu-footer a:hover {
+  color: #cbbcf6;
+}
+.last-footer {
+  width: 100%;
+  height: 30px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 10px;
+}
