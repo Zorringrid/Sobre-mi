@@ -147,6 +147,21 @@ body {
   border-radius: 15px;
 }
 
+.background-image-gatos {
+  background-image: url(img/kiwipelu.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* Hace que la imagen se adapte */
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 95vh;
+  margin-bottom: 10px;
+  width: 50%;
+  /* Evita que se deforme en pantallas grandes */
+}
+.masdemi {
+  margin-left: 50px;
+}
 .first-footer {
   width: 100%;
   height: 80px;
